@@ -95,12 +95,6 @@ public class DemoTest {
         consoleOutput += "Enter side 3: \r\n";
         consoleOutput += "This is not a triangle.\r\n";
 
-        //String[] args = {"1","2","3"};
-
-        //or
-        //Demo.main(List.of());
-
-
         assertEquals(consoleOutput, out.toString());
 
     }
@@ -113,9 +107,6 @@ public class DemoTest {
         consoleOutput += "Enter side 2: \r\n";
         consoleOutput += "Enter side 3: \r\n";
         consoleOutput += "This is a triangle.\r\n";
-
-        //String[] args = {"6","8","10"};
-        //Demo.main(args);
 
         assertEquals(consoleOutput, out.toString());
 
